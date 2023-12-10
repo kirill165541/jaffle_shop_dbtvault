@@ -12,6 +12,6 @@ services:
   postgres:
     image: postgres
     environment: 
-      POSTGRES_PASSWORD: postgres
+      POSTGRES_PASSWORD: dbt_kzhukov
     ports:
       - 5432:5432

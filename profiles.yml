@@ -8,10 +8,10 @@ jaffle_shop:
     dev:
       type: postgres
       threads: 1
-      host: postgres
-      port: 5432
-      user: postgres
-      pass: postgres
-      dbname: postgres
-      schema: dbt
+      host: rc1d-o4pej0lsvgkw06wt.mdb.yandexcloud.net
+      port: 6432
+      user: kzhukov
+      pass: dbt_kzhukov
+      dbname: db1
+      schema: public
   target: dev  

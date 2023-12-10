@@ -6,8 +6,6 @@ config-version: 2
 
 analysis-paths:
   - analysis
-clean-targets:
-  - target
 data-paths:
   - data
 macro-paths:
@@ -26,6 +24,10 @@ vars:
 
 models:
   jaffle_shop_dbtvault:
+    marts:
+      tags:
+        - 'marts'
+      materialized: view
     stage:
       tags:
         - 'stage'

@@ -2,8 +2,8 @@ version: 2
 
 sources:
   - name: src
-    database: postgres
-    schema: dbt
+    database: db1
+    schema: public
     tables:
       - name: source_customers
       - name: source_orders
